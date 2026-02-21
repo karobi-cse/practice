@@ -1,0 +1,15 @@
+import 'dart:io';
+
+void main() {
+  print("Enter P:");
+  double p = double.parse(stdin.readLineSync()!);
+
+  print("Enter T:");
+  double t = double.parse(stdin.readLineSync()!);
+
+  print("Enter R:");
+  double r = double.parse(stdin.readLineSync()!);
+
+  double SI = (p * t * r) / 100;
+  print("Simple Interest = $SI");
+}
